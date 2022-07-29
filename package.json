@@ -1,0 +1,19 @@
+{
+  "name": "themoviefrontend",
+  "version": "1.0.0",
+  "description": "Proyecto personal para adquirir mas conocimientos en la parte del lado del cliente de una App",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilsonFermin/TheMovieFrontend.git"
+  },
+  "author": "@wilsonruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WilsonFermin/TheMovieFrontend/issues"
+  },
+  "homepage": "https://github.com/WilsonFermin/TheMovieFrontend#readme"
+}
