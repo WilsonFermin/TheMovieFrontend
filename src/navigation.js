@@ -28,6 +28,8 @@ function navigator() {
         homePage();
     }
 
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
 
 function homePage() {
@@ -65,6 +67,13 @@ function categoriesPage() {
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.remove('inactive');
     movieDetailSection.classList.add('inactive');
+
+    const [_, categoryData] = location.hash.split('=') // ['#category', 'id-name']
+    const [categoryId, catagoryName] = categoryData.split('-');
+
+    headerCategoryTitle.innerHTML = catagoryName;
+
+    getMoviesByCategory(categoryId);
 }
 
 function movieDetailsPage() {
